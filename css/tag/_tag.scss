@@ -1,0 +1,26 @@
+.tag {
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    background-color:#fff;
+    padding: 8px 16px;
+
+    &__picture {
+        margin-right: 12px;
+    }
+
+    &--secondary {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    &--transparent {
+        background-color: transparent;
+        border-radius: 0
+    }
+
+    &--no-padding {
+        padding: 0;
+        margin-bottom: 30px;
+    }
+}
+

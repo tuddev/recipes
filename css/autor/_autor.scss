@@ -1,0 +1,26 @@
+.autor {
+    display: flex;
+    align-items: center;
+    
+    &__avatar {
+        margin-right: 16px;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__name {
+        font-weight: 700;
+        line-height: 19px;
+        letter-spacing: -0.02em;
+    }
+
+    &__date {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+    }
+}

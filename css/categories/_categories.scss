@@ -1,0 +1,19 @@
+.categories {
+    &__header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 82px;
+    }
+
+    &__cards {
+        display: flex;
+        width: 100%;
+        max-width: 1280px;
+        overflow-x: auto;
+    }
+
+    &__card {
+        margin-right: 40px;
+    }
+}

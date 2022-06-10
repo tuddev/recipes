@@ -1,0 +1,18 @@
+.main-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    &__name {
+        font-size: 44px;
+        margin: 34px 0;
+        text-align: center;
+    }
+    
+    &__subtitle {
+        line-height: 28px;
+        color: rgba(0, 0, 0, .6);
+        text-align: center;
+        margin-bottom: 84px;
+    }
+}

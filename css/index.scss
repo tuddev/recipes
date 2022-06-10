@@ -1,0 +1,30 @@
+@import './header/header';
+@import './w-container/w-container';
+@import './recipe-banner/recipe-banner';
+@import './tag/tag';
+@import './autor/autor';
+@import './button/button';
+@import './page/page';
+@import './categories/categories';
+@import './card/card';
+@import './recipes/recipes';
+@import './recipe-card/recipe-card';
+@import './sell-banner/sell-banner';
+@import './main-title/main-title';
+@import './banner-learn/banner-learn';
+@import './signboard/signboard';
+@import './social-posts/social-posts';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/dist/css/index.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <title>Kitchen</title>
+</head>
+<body>
+    <main class="page">
+        <div class="page__header header">
+            <div class="header__inner w-container">
+                <img src="/assets/logo.png" class="header__logo">
+                <div class="header__nav">
+                    <a href="#" class="header__link">Home</a>
+                    <a href="#" class="header__link">Recipes</a>
+                    <a href="#" class="header__link">Blog</a>
+                    <a href="#" class="header__link">Contact</a>
+                    <a href="#" class="header__link">About us</a>
+                </div>
+                <div class="header__contacts">
+                    <a class="header__link">
+                        <img src="/assets/fb.png" class="header__link-img">
+                    </a>
+                    <a class="header__link">
+                        <img src="/assets/tw.png" class="header__link-img">
+                    </a>
+                    <a class="header__link">
+                        <img src="/assets/ig.png" class="header__link-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="page__item slider swiper w-container">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="recipe-banner">
+                        <div class="recipe-banner__description">
+                            <div class="recipe-banner__labels">
+                                <div class="recipe-banner__label tag">
+                                    <img src="/assets/paper.png" alt="paper" class="tag__picture">
+                                    <div class="tag__text">Hot Recipes</div>
+                                </div>
+                                <div class="recipe-banner__label tag">
+                                    <img src="/assets/paper.png" alt="paper" class="tag__picture">
+                                    <div class="tag__text">Hot Recipes</div>
+                                </div>
+                            </div>
+                            <div class="recipe-banner__title">Spicy delicious chicken wings</div>
+                            <div class="recipe-banner__subtitle">Lorem ipsum dolor sit amet, consectetuipisicing elit,
+                                sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim </div>
+                            <div class="recipe-banner__tags">
+                                <div class="recipe-banner__tag tag tag--secondary">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--secondary">
+                                    <img src="/assets/knife.png" alt="knife" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                            <div class="recipe-banner__footer">
+                                <div class="recipe-banner__autor autor">
+                                    <img src="/assets/avatar.png" class="autor__avatar">
+                                    <div class="autor__description">
+                                        <div class="autor__name">John Smith</div>
+                                        <div class="autor__date">15 March 2022</div>
+                                    </div>
+                                </div>
+                                <a href="#" class="recipe-banner__button button button--link">
+                                    <div class="button__text">View Recipes</div>
+                                    <img src="/assets/play.png" alt="play" class="button__picture">
+                                </a>
+                            </div>
+                        </div>
+                        <img src="/assets/food.png" class="recipe-banner__picture">
+                        <img src="./assets/badge.png" alt='badge' class="recipe-banner__badge">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page__item categories w-container">
+            <div class="categories__header">
+                <img src="./assets/categories.png" alt="categories" class="categories__title">
+                <a href="#" class="categories__button button button--secondary button--link">
+                    <img src="./assets/view-all-categories.png" alt="View All Categories" class="button__text">
+                </a>
+            </div>
+            <div class="categories__cards">
+                <div class="categories__card card">
+                    <img src="./assets/veg-with-shadow.png" alt="vegan" class="card__image">
+                    <img src="./assets/vegan-name.png" alt="vegan" class="card__name">
+                </div>
+                <div class="categories__card card">
+                    <img src="./assets/veg-with-shadow.png" alt="vegan" class="card__image">
+                    <img src="./assets/vegan-name.png" alt="vegan" class="card__name">
+                </div>
+                <div class="categories__card card">
+                    <img src="./assets/veg-with-shadow.png" alt="vegan" class="card__image">
+                    <img src="./assets/vegan-name.png" alt="vegan" class="card__name">
+                </div>
+                <div class="categories__card card">
+                    <img src="./assets/veg-with-shadow.png" alt="vegan" class="card__image">
+                    <img src="./assets/vegan-name.png" alt="vegan" class="card__name">
+                </div>
+                <div class="categories__card card">
+                    <img src="./assets/veg-with-shadow.png" alt="vegan" class="card__image">
+                    <img src="./assets/vegan-name.png" alt="vegan" class="card__name">
+                </div>
+                <div class="categories__card card">
+                    <img src="./assets/veg-with-shadow.png" alt="vegan" class="card__image">
+                    <img src="./assets/vegan-name.png" alt="vegan" class="card__name">
+                </div>
+            </div>
+        </div>
+        <div class="page__header">
+            <div class="main-title">
+                <h2 class="main-title__name">Simple and taste recipes</h2>
+                <div class="main-title__subtitle">
+                    Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
+                    ut labore et dolore magna aliqut enim ad minim
+                </div>
+            </div>
+        </div>
+        <div class="page__item recipes w-container">
+            <div class="recipes__cards">
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="sell-banner">
+                        <img src="./assets/ads.png" alt="sell" class="sell-banner__img">
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="recipes__card">
+                    <div class="recipe-card">
+                        <div class="recipe-card__banner">
+                            <img src="./assets/recipe.png" alt="recipe" class="recipe-card__image">
+                            <img src="./assets/like.png" alt="like" class="recipe-card__like">
+                        </div>
+                        <div class="recipe-card__description">
+                            <div class="recipe-card__title">Big and Juicy Wagyu Beef Cheeseburger</div>
+                            <div class="recipe-card__tags">
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/timer.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">30 Minutes</div>
+                                </div>
+                                <div class="recipe-banner__tag tag tag--transparent tag--no-padding">
+                                    <img src="/assets/knife.png" alt="time" class="tag__picture">
+                                    <div class="tag__text">Chicken</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="page__item banner-learn w-container">
+                <div class="banner-learn__signboards">
+                    <div class="banner-learn__signboard">
+                        <div class="signboard">
+                            <div class="signboard__information">
+                                <div class="signboard__title">Everyone can be a <br>chef in their own Kitchen</div>
+                                <div class="signboard__subtitle">Lorem ipsum dolor sit amet, consectetuipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim
+                                </div>
+                                <div class="signboard__button ">
+                                    <a href="#" class="button button--link">
+                                        <div class="button__text">Learn more</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="signboard__img-background">
+                                    <img src="./assets/signboard.png" alt="signboard" class="signboard__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div> 
+        <div class="page__item social-posts w-container">
+            <div class="page__header page__header--wide">
+                <div class="main-title">
+                    <h2 class="main-title__name">Cheak out us on Social</h2>
+                    <div class="main-title__subtitle">
+                        Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
+                        ut labore et dolore magna aliqut enim ad minim
+                    </div>
+                    <div class="social-posts__posts">
+                        <img src="./assets/post-cake.png" alt="post" class="social-posts__post">
+                        <img src="./assets/post-garlic.png" alt="post" class="social-posts__post">
+                        <img src="./assets/post-potato.png" alt="post" class="social-posts__post">
+                        <img src="./assets/post-salad.png" alt="post" class="social-posts__post">
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </main>
+    <script src="/js/swiper-slider.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+.button {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #000;
+    padding: 22px 36px; 
+
+    &__text {
+        font-weight: 600;
+        color: #fff;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.02em;
+    }
+
+    &__picture {
+        margin-left: 16px;
+    }
+
+    &--secondary {
+        background-color: rgba(231, 250, 254, 1);
+    }
+    
+    &--link {
+        text-decoration: none;
+    }
+}

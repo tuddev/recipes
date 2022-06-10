@@ -1,0 +1,32 @@
+.signboard {
+    display: flex;
+
+    &__imformation {
+        display: flex;
+        max-width: 522px;
+    }
+
+    &__title {
+        font-size: 50px;
+        line-height: 64px;
+        letter-spacing: -0.04em;   
+        font-weight: 600;   
+        margin-bottom: 44px;
+        margin-top: 180px;
+    }
+
+    &__subtitle {
+        line-height: 28px;
+        color: rgba(0, 0, 0, .6);
+        margin-bottom: 80px;
+    }
+
+    &__button {
+        display: flex;
+    }
+    
+    &__img {
+        width: 710px;
+        height: 598px;
+    }
+}

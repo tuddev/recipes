@@ -1,0 +1,13 @@
+.recipes {    
+    &__cards {
+        display: flex;
+        padding-bottom: 40px;
+        margin: -20px -20px 0;
+        flex-wrap: wrap;
+    }
+    
+    &__card {
+        padding: 20px;
+        width: 33.3%;
+    }
+}

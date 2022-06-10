@@ -1,0 +1,34 @@
+.header {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+
+    &--wide {
+            max-width: 796px;
+    }
+
+    &__inner  {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 40px 0;
+    }
+
+    &__link {
+        text-decoration: none;
+        margin-right: 60px;
+        cursor: pointer;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__link-img {
+        margin-right: 40px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

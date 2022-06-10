@@ -1,0 +1,62 @@
+.recipe-banner {
+    display: flex;
+    background-color: rgba(231, 250, 254, 1);
+    border-radius: 50px;
+    overflow: hidden;
+    position: relative;
+
+    &__description {
+        padding: 50px;
+    } 
+
+    &__title {
+        font-size: 64px;
+        line-height: 78px;
+        letter-spacing: -0.04em;   
+        font-weight: 600;   
+        margin-bottom: 24px;
+    } 
+
+    &__subtitle {
+        line-height: 28px;
+        color: rgba(0, 0, 0, .6);
+        margin-bottom: 30px;
+    } 
+
+    &__labels {
+        display: flex;
+        margin-bottom: 32px;
+    } 
+
+    &__label {
+        margin-right: 14px;
+
+        &:last-child {
+            margin-right: 0;
+        }    
+    } 
+
+    &__tags {
+        display: flex;
+        margin-bottom: 104px;
+    } 
+
+    &__tag {
+        margin-right: 16px;
+    } 
+
+    &__footer {
+        display: flex;
+        justify-content: space-between;
+    } 
+
+    &__badge {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 50px;
+    } 
+} 
+
